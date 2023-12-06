@@ -9,7 +9,6 @@ fn read_lines(filename: &str) -> Vec<String> {
 }
 
 fn main() {
-    // --snip--
     let file_path: &str = "src/part-1.txt";
     let lines = read_lines(file_path);
     let mut sum: i32 = 0;
